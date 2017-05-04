@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ExcelUtils-1.41forPOI3.7.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2-sources.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2-test-sources.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2-tests.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/quartz-1.6.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/quartz-all-1.6.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/quartz-oracle-1.6.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/poi-3.6-20091214.jar"/>
+	<classpathentry kind="output" path="src/main/webapp/WEB-INF/classes"/>
+</classpath>
