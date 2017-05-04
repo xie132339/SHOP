@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kuke.web.user.dao.UserDao">
+	<select id="findUser" parameterType="com.kuke.web.user.model.User" resultType="com.kuke.web.user.model.User">
+		select 
+		l_id id
+		,vc_name name
+		,vc_password password
+		from sys_user
+	</select>
+	<insert id="saveUser" parameterType="com.kuke.web.user.model.User">
+		insert into sys_user(l_id,vc_name,vc_password)
+		values
+		(seq_user.nextval,#{name, jdbcType=VARCHAR},#{password, jdbcType=VARCHAR})
+	</insert>
+</mapper>
